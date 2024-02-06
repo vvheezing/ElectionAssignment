@@ -1,0 +1,62 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+   
+}
+
+p {
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+table {
+    border: solid black;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    font-size: 25px;
+    background-color: #b3bf95;
+    
+
+}
+th {
+     border: 4px solid black;
+     background-color: #ebb867;
+   
+}
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+    figcaption {
